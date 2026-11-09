@@ -11,6 +11,13 @@ export const metadata: Metadata = {
     canonical: `https://${SITE.domain}/search/`,
   },
   robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    siteName: SITE.name,
+    title: `Search Pedigree Kittens & Knowledge | ${SITE.name}`,
+    description: `Search available European and American Maine Coon kittens, holistic feline nutrition, solid timber castles, and breed guides.`,
+    url: `https://${SITE.domain}/search/`,
+  },
   other: {
     'og:updated_time': new Date().toISOString(),
   },

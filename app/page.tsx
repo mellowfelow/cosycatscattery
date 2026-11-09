@@ -53,6 +53,7 @@ export default function HomePage() {
       priceRange: '$$$$',
       telephone: CONTACT.phone,
       image: `https://${SITE.domain}/images/hero/hero-1.webp`,
+      logo: `https://${SITE.domain}/icon.svg`,
       brand: {
         '@type': 'Brand',
         name: SITE.name,

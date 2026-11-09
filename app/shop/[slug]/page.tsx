@@ -80,7 +80,7 @@ export default async function ProductDetailPage({
       '@type': 'Product',
       name: product.name,
       description: product.description,
-      image: product.images,
+      image: product.images.map(img => (img.startsWith('http') ? img : `https://${SITE.domain}${img}`)),
       sku: product.slug,
       brand: {
         '@type': 'Brand',
