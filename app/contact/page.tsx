@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     title: `Contact ${SITE.name} | Maine Coon Enquiries Australia-Wide`,
     description: `Get in touch about Maine Coon kittens, pricing, and nationwide flight delivery from our Canberra cattery.`,
     url: `https://${SITE.domain}/contact/`,
+    images: [
+      {
+        url: `https://${SITE.domain}/images/hero/hero-1.webp`,
+        width: 1920,
+        height: 1280,
+        alt: `${SITE.name} Pedigree Maine Coon Kittens`,
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

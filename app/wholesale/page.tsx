@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     title: `Wholesale Cat Tower & Cattery Supply | ${SITE.name}`,
     description: `Bulk Maine Coon cat furniture and nutrition supply for Australian trade partners — vet clinics, feline hotels, and catteries.`,
     url: `https://${SITE.domain}/wholesale/`,
+    images: [
+      {
+        url: `https://${SITE.domain}/images/hero/hero-1.webp`,
+        width: 1920,
+        height: 1280,
+        alt: `${SITE.name} Pedigree Maine Coon Kittens`,
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

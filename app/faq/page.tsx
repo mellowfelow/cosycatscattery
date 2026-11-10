@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     title: `Maine Coon Price & Adoption FAQ | ${SITE.name}`,
     description: `Pricing, adoption process, flight transport, and pedigree certification questions for Maine Coons in Australia, answered.`,
     url: `https://${SITE.domain}/faq/`,
+    images: [
+      {
+        url: `https://${SITE.domain}/images/hero/hero-1.webp`,
+        width: 1920,
+        height: 1280,
+        alt: `${SITE.name} Pedigree Maine Coon Kittens`,
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

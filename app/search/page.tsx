@@ -17,6 +17,14 @@ export const metadata: Metadata = {
     title: `Search Pedigree Kittens & Knowledge | ${SITE.name}`,
     description: `Search available European and American Maine Coon kittens, holistic feline nutrition, solid timber castles, and breed guides.`,
     url: `https://${SITE.domain}/search/`,
+    images: [
+      {
+        url: `https://${SITE.domain}/images/hero/hero-1.webp`,
+        width: 1920,
+        height: 1280,
+        alt: `${SITE.name} Pedigree Maine Coon Kittens`,
+      },
+    ],
   },
   other: {
     'og:updated_time': new Date().toISOString(),
